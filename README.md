@@ -1,21 +1,32 @@
-# Dashboard CSV
 
-Script em Python que le planilhas CSV, analisa dados de vendas
-e gera relatorios automaticos em PDF.
+---
 
-## Tecnologias
+### 🔹 2. DASHBOARD CSV
+
+```markdown
+# 📊 Dashboard Automatizado com Python
+
+Script em Python para análise de dados de vendas a partir de arquivos CSV, com geração automática de relatórios em PDF.
+
+## 🚀 Funcionalidades
+- Leitura de arquivos CSV/Excel
+- Análise de dados de vendas
+- Identificação de:
+  - Total de vendas
+  - Melhor vendedor
+  - Produto mais vendido
+- Geração de relatório em PDF
+
+## 🧰 Tecnologias
 - Python 3
 - pandas
-- fpdf2
 - openpyxl
+- fpdf2
 
-## O que o script faz
-- Gera uma planilha de vendas de exemplo
-- Calcula total de vendas, melhor vendedor e produto mais vendido
-- Gera um relatorio completo em PDF com tabela detalhada
+## ⚙️ Como executar
 
-## Como usar
-1. Clone o repositorio
-2. Instale as dependencias: pip install pandas openpyxl fpdf2
-3. Rode: python dashboard.py
-4. O relatorio sera gerado como relatorio.pdf
+```bash
+git clone https://github.com/NaitySantos/dashboard-csv
+cd dashboard-csv
+pip install pandas openpyxl fpdf2
+python dashboard.py
